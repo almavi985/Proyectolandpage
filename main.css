@@ -1,0 +1,43 @@
+
+ 
+ header
+ 
+ {
+     background-color: black;
+     color: orange;
+     height: 70px;
+    padding-top: 5px;
+     
+ }
+ .enlaces ul,
+ .enlaces ul li {
+    display:inline;
+    
+ }
+ 
+
+.enlaces {
+    padding-left: 500px;
+  
+
+   
+}
+
+.enlaces ul li {
+    
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.enlaces ul li:hover {
+    color: green;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    h1 {
+        color: black !important;
+    }
+} 
