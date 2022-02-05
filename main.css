@@ -1,28 +1,30 @@
 
-@media (max-width: 600px) {
+@media (min-width:240px)and( width:720px) {
     body {
-        background-color: yellow;
-    }
-    h1 {
-        color: black ;
-        width: 1000px;
-    }
-} 
-
-.py-3 
-    {
-background-color: black;
+        background-color: #d8f8e1;
     }
 
+    } 
+
+
+body,header,footer,main{
+    width:100%;
+    background-color: #d8f8e1;
+}
     .nav-link{
-       color: orange;
-     background-color: black;
+       color: black;
+     background-color: #b0c2f2;
 
     }
+.fonda{
+    margin:30%;
 
+    display: block;
+}
     .jumbotron{
-        width: 300px;
-        background-color: orange;
+        width: 500px;
+
+        align-items: center;
     }
 
     h1 
@@ -40,38 +42,24 @@ background-color: black;
         width: 1000px;
         display: inline-block;
     }
-    .menu
 
-    {background-color: orange;}
     .caja
 
-    {background-color: black;
+    {
     width: 1250px;
-    height: 100px;}
- .pcaja
- {
-    color: orange;
- }
- h2
- {background-color: orange;}
- 
- .py-3¨
- {color: orange;}
- .my-0
- {color: orange;}
- .my-1
- {color: orange;}
- 
+    height: 200px;}
+
 button:hover
-{background-color: black;
+{
 color: white;}
 button
 {border-radius:10px ;
 width: 300px;
-background-color: orange;
-
 }
 .cajatext
 {
 border-radius: 10px;
+}
+#menu{
+    background-color: #aff8d8; ;
 }
